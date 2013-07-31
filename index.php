@@ -36,6 +36,7 @@ else
   echo "[<a href=seat_add.php>我要提供车位</a>]<br><br>";
   echo "[<a href=book_cancel.php>取消我的拼车</a>]<br><br>";
   echo "[<a href=book_total.php>我的拼车统计</a>]<br>";
+  echo "[<a href=book_all.php>所有拼车统计</a>]<br>";
 
   if($_SESSION['pingche_userlevel'] >=10)
   {
@@ -68,8 +69,8 @@ var NowSecond = Today.getSeconds();
 if (NowYear <2000)  
 NowYear=1900+NowYear;  
 Today = null;  
-Hourleft = 17 - NowHour  
-Minuteleft = 30 - NowMinute  
+Hourleft = 19 - NowHour  
+Minuteleft = 0 - NowMinute  
 Secondleft = 0 - NowSecond  
 Yearleft = 2020 - NowYear  
 Monthleft = 12 - NowMonth - 1

@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-define("TIMEOUT_HOUR","17"); 
-define("TIMEOUT_MINUTES","30"); 
+define("TIMEOUT_HOUR","19"); 
+define("TIMEOUT_MINUTES","0"); 
 define("TIMEOUT_SECOND","0"); 
 
 function is_timeout()
